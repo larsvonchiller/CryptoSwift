@@ -826,7 +826,7 @@
 		55B6173C26861EF90023B24F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -837,9 +837,9 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "  env -i PATH=$PATH sh \"$SRCROOT/scripts/build-framework.sh\"\n";
+			shellScript = "  ## env -i PATH=$PATH sh \"$SRCROOT/scripts/build-framework.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
