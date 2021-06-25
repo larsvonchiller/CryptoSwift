@@ -1052,7 +1052,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FB020724A10004E41F8 /* Project-Debug.xcconfig */;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Debug;
@@ -1061,7 +1061,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FAA20724A0F004E41F8 /* Project-Release.xcconfig */;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Release;
@@ -1070,6 +1070,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FAF20724A10004E41F8 /* CryptoSwift-Debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				ONLY_ACTIVE_ARCH = NO;
 			};
 			name = Debug;
 		};
@@ -1077,6 +1079,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FAC20724A0F004E41F8 /* CryptoSwift-Release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				ONLY_ACTIVE_ARCH = NO;
 			};
 			name = Release;
 		};
@@ -1118,7 +1122,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FB220724A10004E41F8 /* Project-Shared.xcconfig */;
 			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Test;
@@ -1127,6 +1131,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75211FB420724A10004E41F8 /* CryptoSwift-Test.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				ONLY_ACTIVE_ARCH = NO;
 			};
 			name = Test;
 		};
