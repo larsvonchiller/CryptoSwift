@@ -100,12 +100,6 @@ rm -rf ${SCRIPT_DIR}/../CryptoSwift.xcframework
 xcrun xcodebuild -quiet -create-xcframework \
 	-framework "${OUTPUT_DIR}/iphoneos/CryptoSwift.framework" \
 	-framework "${OUTPUT_DIR}/iphonesimulator/CryptoSwift.framework" \
-	-framework "${OUTPUT_DIR}/appletvos/CryptoSwift.framework" \
-	-framework "${OUTPUT_DIR}/appletvsimulator/CryptoSwift.framework" \
-	-framework "${OUTPUT_DIR}/watchos/CryptoSwift.framework" \
-	-framework "${OUTPUT_DIR}/watchsimulator/CryptoSwift.framework" \
-	-framework "${OUTPUT_DIR}/macos/CryptoSwift.framework" \
-	-framework "${OUTPUT_DIR}/maccatalyst/CryptoSwift.framework" \
 	-output ${SCRIPT_DIR}/../CryptoSwift.xcframework
 
 # pushd ${OUTPUT_DIR}
